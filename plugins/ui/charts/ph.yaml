@@ -1,0 +1,12 @@
+---
+data_source: pH_readings
+data_source_column: ph_reading
+title: pH
+mqtt_topic: ph_reading/pH
+chart_key: ph_readings
+source: pH_readings_plugin
+y_axis_label: pH
+interpolation: stepAfter
+y_axis_domain: [6, 8]
+lookback: 100000
+fixed_decimals: 2

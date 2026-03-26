@@ -1,0 +1,10 @@
+dataset_name: ph_readings
+default_order_by: timestamp
+description: Time series of pH readings from the attached probe.
+display_name: pH readings
+has_experiment: true
+has_unit: true
+source: ph_reading
+table: pH_readings
+timestamp_columns:
+  - timestamp
