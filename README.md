@@ -69,6 +69,7 @@ Guided Atlas EZO-pH calibration protocol:
   Stop pH tracking first, then run calibration to avoid I2C contention and transient EZO errors.
 - During each calibration buffer step, wait about 30 seconds for probe stabilization before pressing Continue.
 - If Pioreactor UI shows protocol-loading issues after restart, open the Plugins tab once and retry (known behavior on some Pioreactor software versions).
+- Dataset with pH values can be exported via standard "Export data" module in .csv.
 
 ## Repository Structure
 
@@ -86,7 +87,7 @@ plugins/
 
 ## Screenshots
 
-Add images in your repository `images/` folder and keep (or rename) these references:
+Screenshots of Pioreactor pH plugins UI
 
 ### Main Pioreactor UI with pH chart
 
