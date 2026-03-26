@@ -1,6 +1,6 @@
 # Pioreactor pH Plugin Pack
 
-Professional pH integration for Pioreactor using an Atlas Scientific EZO-pH sensor.
+pH integration for Pioreactor using an Atlas Scientific EZO-pH circuit.
 
 This repository package provides three Python plugins that work together:
 
@@ -68,7 +68,7 @@ Guided Atlas EZO-pH calibration protocol:
 - Do not run `ph_reading` simultaneously with calibration.  
   Stop pH tracking first, then run calibration to avoid I2C contention and transient EZO errors.
 - During each calibration buffer step, wait about 30 seconds for probe stabilization before pressing Continue.
-- If Pioreactor UI shows protocol-loading issues after restart, open the Plugins tab once and retry (known behavior in some setups).
+- If Pioreactor UI shows protocol-loading issues after restart, open the Plugins tab once and retry (known behavior on some Pioreactor software versions).
 
 ## Repository Structure
 
