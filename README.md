@@ -90,16 +90,16 @@ Add images in your repository `images/` folder and keep (or rename) these refere
 
 ### Main Pioreactor UI with pH chart
 
-![Main UI with pH chart](../images/main-ui-ph-chart.png)
+![Main UI with pH chart](/images/main-ui-ph-chart.png)
 
 ### Calibration protocol - first window
 
-![Calibration first window](../images/calibration-first-window.png)
+![Calibration first window](/images/calibration_window.jpg)
 
 ### Calibration result curve
 
-![Calibration result curve](../images/calibration-ready-curve.png)
+![Calibration result curve](/images/calibration-ready-curve.png)
 
 ## License
 
-Use the same license as your repository/project.
+MIT License
