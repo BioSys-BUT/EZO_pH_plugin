@@ -34,7 +34,7 @@ It also includes UI and export dataset YAML files in subfolders:
    - pH chart appears in Overview (if configured in your UI setup).
    - pH protocol appears in Calibration -> Protocols.
    - 
-# Pioreactor Configuration (required)
+## Pioreactor Configuration (required)
 
 After copying plugins, add the following section in Pioreactor configuration (via UI Config editor or config file):
 
