@@ -33,6 +33,21 @@ It also includes UI and export dataset YAML files in subfolders:
    - `ph_reading` is available in job controls.
    - pH chart appears in Overview (if configured in your UI setup).
    - pH protocol appears in Calibration -> Protocols.
+   - 
+# Pioreactor Configuration (required)
+
+After copying plugins, add the following section in Pioreactor configuration (via UI Config editor or config file):
+
+```ini
+[ph_reading.config]
+i2c_channel_hex=0x63
+time_between_readings=2.0
+```
+
+Notes:
+
+- `i2c_channel_hex` must match your EZO-pH board address.
+- `time_between_readings` must be at least `2.0`, otherwise `ph_reading` will fail to start.
 
 ## Plugin Overview
 
