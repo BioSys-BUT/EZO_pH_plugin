@@ -106,15 +106,15 @@ Screenshots of Pioreactor pH plugins UI
 
 ### Main Pioreactor UI with pH chart
 
-![Main UI with pH chart](/images/main-ui-ph-chart.png)
+![Main UI with pH chart](./images/main-ui-ph-chart.png)
 
 ### Calibration protocol - first window
 
-![Calibration first window](/images/calibration_window.jpg)
+![Calibration first window](./images/calibration_window.jpg)
 
 ### Calibration result curve
 
-![Calibration result curve](/images/calibration-ready-curve.png)
+![Calibration result curve](./images/calibration-ready-curve.png)
 
 ## License
 
